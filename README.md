@@ -1,15 +1,16 @@
 # TryingOutDistillery
 I chose Distillery becouse it's free and kinda easy to use.
 What have I observed after 1 week of using this:
-- it has a problem to generate human faces of helmets with some imitations of face (Stormtroopers helmets from Star Wars).
-  ![image](https://github.com/MichalZx/TryingOutDistillery/assets/115743546/9ed5095f-bb7e-4860-84cd-9706c290bbf0)
+- You can not upscale your own images, Distillery upscales only images made by itself,
+- it has a problem to generate human faces of helmets with imitations of face (Stormtroopers helmets from the Star Wars):
   ![image](https://github.com/MichalZx/TryingOutDistillery/assets/115743546/d11374f6-1015-4140-81fd-f85df09d8b71)
+  ![image](https://github.com/MichalZx/TryingOutDistillery/assets/115743546/9ed5095f-bb7e-4860-84cd-9706c290bbf0)
 - another weaknes is generating not popular as Cats or Dogs animals for example: Chinchillas
   ![skiingchinchil](https://github.com/MichalZx/TryingOutDistillery/assets/115743546/f50fc8ae-81f7-49cb-83b9-3defce9e7b3a)
   but after learning about how this AI works it went more smoth
   ![image](https://github.com/MichalZx/TryingOutDistillery/assets/115743546/c25715e0-0dd4-4e62-a945-9b4f10414add)
-To learn more i made en experiment about 3 similar but not clear functions (--image, --adapt, --control).
-For the test I used same 2 pictures with same disciption and the only thing was changeing were those functions:
+To learn more i made en experiment about 3 similar but not clearly explained functions (--image, --adapt, --control).
+For the test I used the same 2 pictures with the same disciption and the only thing was changeing were those functions:
 (I wanted a chinchilla programming on the computer in the office) the results:
 [control] Chinchilla + [input] programing cat =
 ![distillery_7914c81c-dd59-4987-bce9-e5930892a63a](https://github.com/MichalZx/TryingOutDistillery/assets/115743546/aa1958cb-2ff2-4ed5-8a2b-9e1b06b7682a)
@@ -18,7 +19,7 @@ another try with: [adapt] Chinchilla + [image] programming cat =
 close but not exacly what i want.
 And the final: [adapt] Chinchilla + [control] programming cat =
 ![distillery_8e049079-9abd-41a2-9a9c-b181908c32bf](https://github.com/MichalZx/TryingOutDistillery/assets/115743546/6737e9af-8ab6-4c9b-92e0-3d7f02b4833f)
-The best result, so I started to create with some ideas to create, and thats what I got best:
+The best result for this promit. In this experiment I learned how to manipulate with this functions to get what i expect, so I started to create more with couple ideas, and thats what I got best:
 ![distillery_4cf8cab9-5a9c-43c0-ac51-7053e82e371a](https://github.com/MichalZx/TryingOutDistillery/assets/115743546/dd1f1e05-b43c-4557-a8eb-2101f7413acc)
 ![distillery_c54b5ea7-3943-4a48-9c44-368bd3d6f5de](https://github.com/MichalZx/TryingOutDistillery/assets/115743546/c8546f40-8b1e-42c6-b71f-cc901392458e)
 ![distillery_37a4ab66-d844-4347-93b9-dcb9dd69ac90](https://github.com/MichalZx/TryingOutDistillery/assets/115743546/46451357-a7b1-40a8-a07b-6ea5666c27b9)
