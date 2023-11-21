@@ -1,5 +1,6 @@
 # TryingOutDistillery
 I chose Distillery becouse it's free and kinda easy to use.
+Why am I using this? I'm using to make desktop/mobile wallpapers and avatar image for example for Discord.
 What have I observed after 1 week of using this:
 - You can not upscale your own images, Distillery upscales only images made by itself,
 - it has a problem to generate human faces of helmets with imitations of face (Stormtroopers helmets from the Star Wars):
